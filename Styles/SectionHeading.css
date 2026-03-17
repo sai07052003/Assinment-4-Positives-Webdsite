@@ -1,0 +1,114 @@
+.sectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9% 30% 2% 10%;
+    gap: 10px;
+    position: relative;
+}
+
+.sectionHeadingContainer {
+    position: relative;
+    right: 2%;
+}
+
+.sectionHeading {
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #B9FF66;
+    padding: 3% 5%;
+    border-radius: 10px;
+
+}
+
+#CaseStudiesHeading{
+   padding: 0% 5%;
+   right: 2%;
+}
+
+
+.sectionDiscription {
+    width: 41%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    position: absolute;
+    left: 25%;
+
+}
+
+@media (max-width:1024px) {
+    .sectionContainer {
+        padding-bottom: 5%;
+    }
+
+    .sectionHeadingContainer {
+        position: relative;
+        right: 2%;
+    }
+
+
+    .sectionDiscription {
+        left: 35%;
+        width: 60%;
+    }
+}
+
+@media (max-width:768px) {
+    .sectionHeading {
+
+        font-weight: 500;
+        font-size: 30px;
+
+    }
+
+    .sectionDiscription {
+        font-size: 15px;
+        line-height: 100%;
+        left: 40%;
+
+    }
+}
+
+@media (max-width:490px) {
+    .sectionHeading {
+
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    .sectionDiscription {
+        font-size: 11px;
+        line-height: 100%;
+        left: 40%;
+
+    }
+}
+
+@media (max-width:320px) {
+    .sectionContainer {
+        padding-bottom: 6%;
+    }
+
+    .sectionHeading {
+
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+
+    .sectionDiscription {
+        font-size: 11px;
+        line-height: 108%;
+        left: 40%;
+        padding-bottom: 2%;
+
+    }
+}

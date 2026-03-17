@@ -1,0 +1,79 @@
+.contactSection {
+    padding: 5%;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.formBox {
+    flex: 1;
+}
+
+.radioGroup {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.radioGroup input {
+    margin-right: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    outline: none;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.formBox .buttonContact {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    background: #1c1c24;
+    color: white;
+    border-radius: 10px;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .image-box {
+        margin-top: 30px;
+    }
+}

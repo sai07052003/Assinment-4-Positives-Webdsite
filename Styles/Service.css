@@ -1,0 +1,162 @@
+.serservicesContainer {
+    padding: 3% 10%;
+    display: flex;
+    gap: 50px;
+
+}
+
+
+.serservicesContainer .servicesCart {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 1px 5px black;
+    padding: 1% 2%;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    gap: 80px;
+
+}
+
+.serservicesContainer .servicesCart .serviceInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.servicesCart .serviceInfo .serviceHead {
+    margin-bottom: 60%;
+
+}
+
+.servicesCart .serviceInfo .serviceHead h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    white-space: nowrap;
+    display: flex;
+}
+
+.servicesCart .serviceInfo .serviceHead h3 span {
+    background-color: #B9FF66;
+    border: 1px solid #B9FF66;
+    border-radius: 5px;
+    padding: 0.5% 2%;
+}
+
+.learnMoreiconContainer {
+    position: absolute;
+    left: 5px;
+    bottom: -9px;
+}
+
+.learnMoreiconContainer .learnMoreButton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.learnMoreiconContainer .learnMoreButton p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+
+
+
+#advertising h3 span {
+    background-color: #FFFFFF;
+}
+
+#Pay-per-click {
+    background-color: #B9FF66;
+}
+
+
+
+@media (max-width:1314px) {
+
+    .serservicesContainer .servicesCart {
+        width: 100%;
+        gap: 35%;
+    }
+
+    .serservicesContainer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .servicesCart .serviceInfo .serviceHead h3 {
+        font-size: 20px;
+        padding: 1%;
+    }
+
+    .learnMoreiconContainer .learnMoreButton p {
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width:768px) {
+    .serservicesContainer .servicesCart {
+        width: 100%;
+        gap: 40%;
+    }
+
+}
+
+@media (max-width:621px) {
+    .serservicesContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+       
+
+    }
+
+    .serservicesContainer .servicesCart {
+        width: 100%;
+        gap: 1%;
+    }
+
+    .servicesCart .serviceInfo .serviceHead h3 {
+        font-size: 15px;
+        padding: 1%;
+    }
+
+    .learnMoreiconContainer .learnMoreButton p {
+        font-size: 10px;
+
+    }
+
+    .learnMoreiconContainer .learnMoreButton {
+
+        gap: 5px;
+    }
+
+
+}
+
+#SocialInfo h3 span {
+    background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+}
+
+#socialMedia {
+    background-color: #191A23;
+}
+#socialLearnMore{
+    color:#FFFFFF;
+}
+
+
+
+
+
+

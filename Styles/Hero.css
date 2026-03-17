@@ -1,0 +1,122 @@
+.heroSection {
+    padding: 0 10% 7% 10%;
+}
+
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.heroLeftInfo h2 {
+
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+
+
+.heroLeftInfo p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    width: 96%;
+
+}
+
+
+.heroLeftInfo button {
+    border-radius: 14px;
+    padding: 3.5% 5.3%;
+    border: none;
+    background: #191A23;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.heroRightInfo img {
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .heroSection {
+
+        margin-top: 0%;
+    }
+
+    .heroLeftInfo h2 {
+
+        font-size: 50px;
+        line-height: 100%;
+
+    }
+
+
+    .heroLeftInfo p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+    .heroLeftInfo button {
+
+        padding: 2.5% 4.5%;
+    }
+
+    .heroRightInfo img {
+        width: 140%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroLeftInfo h2 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+
+    .heroLeftInfo p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+    .heroLeftInfo button {
+
+        padding: 2.5% 4.5%;
+    }
+
+    .heroRightInfo img {
+        width: 140%;
+    }
+}
+
+@media (max-width: 561px) {
+   .heroContainer{
+    flex-wrap: wrap;
+   }
+    .heroRightInfo img {
+        width: 110%;
+    }
+
+    .heroLeftInfo h2 {
+        font-size: 25px;
+    }
+
+
+    .heroLeftInfo p {
+        font-size: 15px;
+    }
+
+
+    .heroLeftInfo button {
+
+        padding: 3.5% 4.5%;
+    }
+}

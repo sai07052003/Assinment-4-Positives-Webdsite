@@ -1,0 +1,126 @@
+.TeamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5%;
+}
+
+
+.card {
+    flex: 1 1 30%;
+    background: #eee;
+    border-radius: 25px;
+    padding: 5%;
+    box-shadow: 6px 6px 0px #000;
+    box-sizing: border-box;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+    margin-left: 1%;
+}
+
+.info h3 {
+    margin: 0;
+}
+
+.role {
+    margin: 2px 0 0;
+    color: #555;
+}
+
+.linkedin {
+    width: 35px;
+    height: 35px;
+}
+
+.linkedin img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.cardBody hr {
+    margin: 1% 0;
+}
+
+.desc {
+    color: #333;
+    line-height: 1.5;
+}
+.btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1%;
+}
+
+.team-btn {
+  background: #1c1c24;
+  color: white;
+  border: none;
+  padding: 1.8% 4%;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.testimonial-section {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    padding: 4%;            
+}
+
+.testimonealBlock img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .card {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .TeamContainer {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+
+    .btn-wrap {
+        justify-content: center;
+    }
+
+    .btn-wrap {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 4%;
+    }
+
+    .team-btn {
+        background: #1c1c24;
+        color: white;
+        border: none;
+        padding: 1.8% 4%;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+}
