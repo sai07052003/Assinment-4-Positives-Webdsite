@@ -1,5 +1,5 @@
 .contactSection {
-    padding: 5%;
+    padding: 5% 10%;
 }
 
 .contactContainer {
@@ -10,6 +10,8 @@
     border: 2px solid gray;
     border-radius: 20px;
     padding: 5%;
+    position: relative;
+    overflow: hidden;
 }
 
 .formBox {
@@ -19,11 +21,16 @@
 .radioGroup {
     display: flex;
     gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 .radioGroup input {
-    margin-right: 8px;
+    margin-right: 1.5%;
 }
 
 form {
@@ -32,12 +39,13 @@ form {
 }
 
 form label {
-    margin: 10px 0 5px;
+    margin: 1% 0 1%;
+    width: 100%;
 }
 
 form input,
 form textarea {
-    padding: 12px;
+    padding: 1.2%;
     border-radius: 10px;
     border: 1px solid #333;
     outline: none;
@@ -61,11 +69,18 @@ form textarea {
     flex: 1;
     display: flex;
     justify-content: center;
+
+
+
 }
 
 .image-box img {
     width: 100%;
     max-width: 400px;
+    position: absolute;
+    right: -20%;
+    top: 10%;
+
 }
 
 @media (max-width: 768px) {
@@ -74,6 +89,6 @@ form textarea {
     }
 
     .image-box {
-        margin-top: 30px;
+        display: none;
     }
 }
